@@ -22,7 +22,7 @@ class Customerseeder extends Seeder
             $chndu->email =  $faker->email;
             $chndu->gender = 'm';
             $chndu->address = $faker->address;
-            $chndu->state = $faker->state;
+            // $chndu->state = $faker->state;
             // $chndu->country =$faker->country;
             // $chndu->dob =$faker->date;
             $chndu-

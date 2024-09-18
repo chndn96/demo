@@ -27,7 +27,7 @@ Route::get('/trash', [ChnduController::class, 'trash'])->name('trash.customers')
 Route::get('/view', [ChnduController::class, 'view'])->name('view.customers');
 Route::post('/create-customer', [ChnduController::class, 'store'])->name('create.customer');
 
-// Route::post('/chndu', [ChnduController::class, 'store']);
+Route::post('/chndu', [ChnduController::class, 'store']);
 
 // Route::get('/chndu', function () {
 //     $customer = Chndu::all();
