@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.0/mdb.min.css" rel="stylesheet">
-    
+
 
     <title>Document</title>
 </head>
@@ -49,13 +49,13 @@
     <!-- Left links -->
 
     <div class="d-flex align-items-center">
-      <a  href="{{url('/registerUser')}}" type="button" class="btn btn-link px-3 me-2"> 
+      <a  href="{{url('/registerUser')}}" type="button" class="btn btn-link px-3 me-2">
         Login
 </a>
       <a  href="{{url('/createCustomer')}}"  type="button" class="btn btn-primary me-3">
         Sign up for free
 </a>
-     
+
     </div>
   </div>
   <!-- Collapsible wrapper -->
