@@ -23,6 +23,7 @@
             />
         </a>
         <button
+            id="uy"
             data-mdb-collapse-init
             class="navbar-toggler"
             type="button"
