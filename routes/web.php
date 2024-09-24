@@ -27,7 +27,7 @@ Route::get('/trash', [ChnduController::class, 'trash'])->name('trash.customers')
 Route::get('/view', [ChnduController::class, 'view'])->name('view.customers');
 Route::post('/create-customer', [ChnduController::class, 'store'])->name('create.customer');
 
-Route::post('/chndu', [ChnduController::class, 'store']);
+// Route::post('/chndu', [ChnduController::class, 'store']);
 
 // Route::get('/chndu', function () {
 //     $customer = Chndu::all();
@@ -44,7 +44,7 @@ Route::get('get_all_function', function () {
 Route::get('set_session', function (Request $request) {
     $request->session()->put('name', 'yohyo');
     $request->session()->put('customer_id', '123');
-    $request->session()->put('bank', 'uco');
+    // $request->session()->put('bank', 'uco');
     $request->session()->put('account', '45463829092374');
     $request->session()->put('password', '7f7f73h4r34h');
     $request->session()->put('piyus ki', '45463829092374');
